@@ -89,6 +89,11 @@ And then we can run it as often as we want
 
     docker run -e CB_HOME=/cb -ti cbclient bin/CBjavaInterface
 
+## Provisions of you have a M1/Me/M3 Mac
+
+See https://forums.docker.com/t/run-x86-intel-and-arm-based-images-on-apple-silicon-m1-macs/117123
+
+
 If nothing happens after issuing this command, make sure that XWindows is running and that `xhost` access controls are set appropriately.
 
 ## Running all-in-one
